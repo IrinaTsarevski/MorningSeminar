@@ -5,9 +5,16 @@
 *  *git branch* -команда, выводящая список веток в репозитории
 * *git branch branch_name* - команда, создающая ветку с именем *branch_name*
 * *git checkout branch_name* - переход на ветку с названием *branch_name*
-* *git branch -d branch_name* команда, удаляющая ветку с названием *branch_name*
+* *git branch -d branch_name* - команда, удаляющая ветку с названием *branch_name*
 * *git log --graph* - команда, вызывающая дерево коммитов со всеми ветками
 
 ## Branch merging
-
+* *git merge branche_name* - команда, осуществляющая
+слияние **текущей ветки** с веткой *branch_name*
+ 
+ **Важно!** информация добавиться в ту ветку на которой сейчас находиться пользователь, т.е. в *текущую ветку*.
+ ### Варианты слияния веток
+ 1. Fast-forward
+ 2. "Ort" strategy
+ 3. Conflict
 ## Branch conflicts
